@@ -121,7 +121,7 @@
 
   border-radius: 20px;
   background-color: $gray;
-  background-image: url("/img/cooperation/decor_1.png");
+  background-image: url("../img/cooperation/decor_1.png");
   background-repeat: no-repeat;
   background-position: right top;
 
@@ -348,7 +348,7 @@
         height: 9px;
 
         transform: translate(-50%,-50%);
-        background: url("/img/cooperation/checkbox.svg");
+        background: url("../img/cooperation/checkbox.svg");
         background-repeat: no-repeat;
       }
     }

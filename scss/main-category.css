@@ -131,7 +131,7 @@
   width: 12px;
   height: 9px;
   transform: translate(-50%, -50%);
-  background: url("/img/cooperation/checkbox.svg");
+  background: url("../img/cooperation/checkbox.svg");
   background-repeat: no-repeat;
 }
 .filter__label {
