@@ -1,42 +1,42 @@
 @font-face {
   font-family: "Bluescreens";
-  src: local("Bluescreens-Bold"), url("/fonts/Bluescreens/Bluescreens-Bold.woff2") format("woff2");
+  src: local("Bluescreens-Bold"), url("../fonts/Bluescreens/Bluescreens-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto-Regular"), url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  src: local("Roboto-Regular"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto-Medium"), url("/fonts/Roboto/Roboto-Medium.woff2") format("woff2");
+  src: local("Roboto-Medium"), url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto-Bold"), url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2");
+  src: local("Roboto-Bold"), url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "RobotoCondensed";
-  src: local("RobotoCondensed-Regular"), url("/fonts/RobotoCondensed/RobotoCondensed-Regular.woff2") format("woff2");
+  src: local("RobotoCondensed-Regular"), url("../fonts/RobotoCondensed/RobotoCondensed-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "RobotoCondensed";
-  src: local("RobotoCondensed-Medium"), url("/fonts/RobotoCondensed/RobotoCondensed-Medium.woff2") format("woff2");
+  src: local("RobotoCondensed-Medium"), url("../fonts/RobotoCondensed/RobotoCondensed-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "RobotoCondensed";
-  src: local("RobotoCondensed-Bold"), url("/fonts/RobotoCondensed/RobotoCondensed-Bold.woff2") format("woff2");
+  src: local("RobotoCondensed-Bold"), url("../fonts/RobotoCondensed/RobotoCondensed-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -79,8 +79,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .about-us__inform {
   display: flex;
@@ -150,10 +149,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  object-fit: cover;
+  object-position: top;
 }
 .worker__title {
   font-family: "Roboto", sans-serif;
@@ -260,4 +257,6 @@
   .our-team__container {
     max-width: 250px;
   }
-}/*# sourceMappingURL=main-about.css.map */
+}
+
+/*# sourceMappingURL=main-about.css.map */
